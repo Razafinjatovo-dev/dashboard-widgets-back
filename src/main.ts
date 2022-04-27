@@ -4,7 +4,7 @@ import {AppModule} from './app.module';
 async function bootstrap() {
     const app = await NestFactory.create(AppModule, {
         cors: {
-            origin: "https://widgets-dashboard.netlify.app",
+            origin: "https://dashboard-widgets.netlify.app/",
             credentials: true
         }
     });
